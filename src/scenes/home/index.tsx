@@ -36,9 +36,11 @@ const Home = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div className="relative">
-              <div className="before:absolute before:-left-20 before:-top-20 before:z-[-1] before:content-evolvetext">
-                <img src={HomePageText} alt="home-page-text" />
+            <div className="md:-mt-20">
+              <div className="relative">
+                <div className="before:absolute  before:-left-20 before:-top-20 before:z-[-1] md:before:content-evolvetext">
+                  <img src={HomePageText} alt="home-page-text" />
+                </div>
               </div>
             </div>
             <p className="mt-8 text-sm ">
